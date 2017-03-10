@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35A361A1E7282B1003FAABB /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C35A36191E7282B1003FAABB /* SimpleVertex.glsl */; };
+		C35A361C1E728621003FAABB /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C35A361B1E728621003FAABB /* SimpleFragment.glsl */; };
 		C3FBDBB21E6E705A00D26A05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBDBB11E6E705A00D26A05 /* main.m */; };
 		C3FBDBB51E6E705A00D26A05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBDBB41E6E705A00D26A05 /* AppDelegate.m */; };
 		C3FBDBB81E6E705A00D26A05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBDBB71E6E705A00D26A05 /* ViewController.m */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C35A36191E7282B1003FAABB /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		C35A361B1E728621003FAABB /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 		C3FBDBAD1E6E705A00D26A05 /* GLFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FBDBB11E6E705A00D26A05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3FBDBB31E6E705A00D26A05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				C3FBDBB71E6E705A00D26A05 /* ViewController.m */,
 				C3FBDBCC1E6E8C0E00D26A05 /* OpenGLView.h */,
 				C3FBDBCD1E6E8C0E00D26A05 /* OpenGLView.m */,
+				C35A36191E7282B1003FAABB /* SimpleVertex.glsl */,
+				C35A361B1E728621003FAABB /* SimpleFragment.glsl */,
 				C3FBDBB01E6E705A00D26A05 /* Supporting Files */,
 			);
 			path = GLFun;
@@ -160,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3FBDBC01E6E705A00D26A05 /* LaunchScreen.storyboard in Resources */,
+				C35A361A1E7282B1003FAABB /* SimpleVertex.glsl in Resources */,
 				C3FBDBBD1E6E705A00D26A05 /* Assets.xcassets in Resources */,
 				C3FBDBBB1E6E705A00D26A05 /* Main.storyboard in Resources */,
+				C35A361C1E728621003FAABB /* SimpleFragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +340,7 @@
 				C3FBDBC61E6E705A00D26A05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

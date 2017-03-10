@@ -18,6 +18,9 @@
 @property (nonatomic) GLuint colorRenderBuffer;
 @property (nonatomic) GLuint frameBuffer;
 
+@property (nonatomic) GLuint* positionSlot;
+@property (nonatomic) GLuint* colorSlot;
+
 - (void)setupLayer;
 
 @end
